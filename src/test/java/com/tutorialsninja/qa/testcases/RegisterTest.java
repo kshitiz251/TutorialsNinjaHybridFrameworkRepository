@@ -13,7 +13,7 @@ import com.tutorialsninja.qa.pages.AccountSuccessPage;
 import com.tutorialsninja.qa.pages.HomePage;
 import com.tutorialsninja.qa.pages.RegisterPage;
 
-
+//register
 public class RegisterTest extends Base {
 	
 	WebDriver driver;
