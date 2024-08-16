@@ -6,6 +6,11 @@
 	</listeners>
 	<test name="TutorialNinja Test">
 		<parameter name="browser" value="chrome"></parameter>
+		<groups>
+			<run>
+			<exclude name="smoke"></exclude>
+			</run>
+		</groups>
 		<classes>
 			<class name="com.tutorialsninja.qa.testcases.RegisterTest" />
 			<class name="com.tutorialsninja.qa.testcases.LoginTest">

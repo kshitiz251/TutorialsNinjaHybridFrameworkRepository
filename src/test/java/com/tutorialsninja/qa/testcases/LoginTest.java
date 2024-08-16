@@ -42,7 +42,7 @@ public class LoginTest extends Base  {
 	}
 	
 
-	@Test(priority = 1, dataProvider = "supplyDataChain" ,dataProviderClass = LoginDataProvider.class)
+	@Test(priority = 1, dataProvider = "supplyDataChain" ,dataProviderClass = LoginDataProvider.class ,groups = {"smoke"})
 	public void verifyLoginWithValidCredentials(String email, String password) {
 		
 		AccountPage accountPage = loginPage.login(email, password);
