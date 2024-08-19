@@ -14,7 +14,7 @@ import com.tutorialsninja.qa.pages.AccountPage;
 import com.tutorialsninja.qa.pages.HomePage;
 import com.tutorialsninja.qa.pages.LoginPage;
 
-// login 
+ 
 
 public class LoginTest extends Base  {
 	
@@ -51,7 +51,7 @@ public class LoginTest extends Base  {
 	
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2, groups = {"smoke"})
 	public void verifyLoginWithInvalidCredentials() {
 
 		loginPage.login(generateEmailTimeStamp()+"@gmail.com", "9876543");

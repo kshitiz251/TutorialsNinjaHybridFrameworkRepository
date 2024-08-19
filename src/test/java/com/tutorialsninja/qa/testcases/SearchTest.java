@@ -13,7 +13,7 @@ import com.tutorialsninja.qa.base.Base;
 import com.tutorialsninja.qa.pages.HomePage;
 import com.tutorialsninja.qa.pages.SearchPage;
 
-// repeat
+
 
 public class SearchTest extends Base {
 
@@ -57,7 +57,7 @@ public class SearchTest extends Base {
 				"There is no product that matches the search criteria.");
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3, groups= {"smoke"})
 	public void verifySearchWithoutAnyProduct() {
 
 		searchPage = homePage.SearchProductIntoSearchBoxFeild("Honda");

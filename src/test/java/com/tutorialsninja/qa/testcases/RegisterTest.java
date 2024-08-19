@@ -13,7 +13,7 @@ import com.tutorialsninja.qa.pages.AccountSuccessPage;
 import com.tutorialsninja.qa.pages.HomePage;
 import com.tutorialsninja.qa.pages.RegisterPage;
 
-//register all
+
 public class RegisterTest extends Base {
 	
 	WebDriver driver;
@@ -41,7 +41,7 @@ public class RegisterTest extends Base {
 	}
 	
 
-	@Test(priority = 1)
+	@Test(priority = 1, groups = {"smoke"})
 	public void VerifyRegisteringAndAccountWithMandatoryFields() {
 
 		accountSuccessPage = registerPage.registerWithMandatoryFields("kshitiz","gupta","kshitiz" + generateEmailTimeStamp() + "@gmail.com","7599020508","987654321");
