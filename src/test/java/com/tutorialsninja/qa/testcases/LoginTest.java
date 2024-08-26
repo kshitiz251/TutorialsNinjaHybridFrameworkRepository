@@ -1,4 +1,6 @@
 package com.tutorialsninja.qa.testcases;
+import java.net.MalformedURLException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.ITestContext;
@@ -23,10 +25,15 @@ public class LoginTest extends Base  {
 	
 	
 	@BeforeMethod
-	@Parameters({"browser"})
-	public void setUp(@Optional("edge") String browser, ITestContext context) {
+	@Parameters({"browser", "os"})
+	public void setUp(@Optional("edge") String browser,String os, ITestContext context) {
 		 
-		driver = initilizeBrowserAndOpenApplication(browser);
+		try {
+			driver = initilizeBrowserAndOpenApplication(browser, os);
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		context.setAttribute("webdriver", driver);
 		HomePage homepage = new HomePage(driver);
 		loginPage = homepage.navigateToLoginPage();
