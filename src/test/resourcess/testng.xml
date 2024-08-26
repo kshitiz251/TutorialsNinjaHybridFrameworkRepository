@@ -4,12 +4,13 @@
 	<listeners>
 		<listener class-name="com.tutorialsninja.qa.listeners.MyListeners"></listener>
 	</listeners>
-	<test name="TutorialNinja Test1">
+	
+	<test name="TutorialNinja_Test1">
 		<parameter name="browser" value="chrome"></parameter>
 		<parameter name="os" value="windows"></parameter>
 		<groups>
 			<run>
-			<exclude name="smoke"></exclude>
+				<exclude name="smoke"></exclude>
 			</run>
 		</groups>
 		<classes>
@@ -23,14 +24,14 @@
 		</classes>
 	</test> <!--
 	Test -->
-	
-	
-	<test name="TutorialNinja Test2">
+
+
+	<test name="TutorialNinja_Test2">
 		<parameter name="browser" value="edge"></parameter>
 		<parameter name="os" value="windows"></parameter>
 		<groups>
 			<run>
-			<exclude name="smoke"></exclude>
+				<exclude name="smoke"></exclude>
 			</run>
 		</groups>
 		<classes>
@@ -44,20 +45,20 @@
 		</classes>
 	</test> <!--
 	Test -->
-	
-	<test name="TutorialNinja Test3">
+
+	<test name="TutorialNinja_Test3">
 		<parameter name="browser" value="firefox"></parameter>
 		<parameter name="os" value="windows"></parameter>
 		<groups>
 			<run>
-			<exclude name="smoke"></exclude>
+				<exclude name="smoke"></exclude>
 			</run>
 		</groups>
 		<classes>
 			<class name="com.tutorialsninja.qa.testcases.RegisterTest" />
 			<class name="com.tutorialsninja.qa.testcases.LoginTest">
 				<methods>
-					<exclude name="verifyLoginWithInvalidCredentials "></exclude>
+					<exclude name="verifyLoginWithInvalidCredential "></exclude>
 				</methods>
 			</class>
 			<class name="com.tutorialsninja.qa.testcases.SearchTest" />
