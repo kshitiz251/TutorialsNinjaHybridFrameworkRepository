@@ -57,6 +57,7 @@ public class SearchTest extends Base {
 				"There is no product that matches the search criteria.");
 	}
 
+	//done
 	@Test(priority = 3, groups= {"smoke"})
 	public void verifySearchWithoutAnyProduct() {
 
