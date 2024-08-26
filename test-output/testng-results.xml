@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="24" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-26T10:48:06 IST" name="TutorialsNinja Automation Suite" finished-at="2024-08-26T10:49:15 IST" duration-ms="68382">
+    <groups>
+    </groups>
+    <test started-at="2024-08-26T10:48:06 IST" name="TutorialNinja Test1" finished-at="2024-08-26T10:48:49 IST" duration-ms="42681">
+      <class name="com.tutorialsninja.qa.testcases.RegisterTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@3c46e67a]" started-at="2024-08-26T10:48:11 IST" name="setUp" finished-at="2024-08-26T10:48:15 IST" duration-ms="3493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10959ece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountByProvidingAllFeilds()[pri:2, instance:com.tutorialsninja.qa.testcases.RegisterTest@3c46e67a]" started-at="2024-08-26T10:48:15 IST" name="verifyRegisteringAccountByProvidingAllFeilds" finished-at="2024-08-26T10:48:17 IST" duration-ms="2003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountByProvidingAllFeilds -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@3c46e67a]" started-at="2024-08-26T10:48:17 IST" name="teardown" finished-at="2024-08-26T10:48:17 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@3c46e67a]" started-at="2024-08-26T10:48:31 IST" name="setUp" finished-at="2024-08-26T10:48:35 IST" duration-ms="3349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10959ece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountWithExistingEmailAddress()[pri:3, instance:com.tutorialsninja.qa.testcases.RegisterTest@3c46e67a]" started-at="2024-08-26T10:48:35 IST" name="verifyRegisteringAccountWithExistingEmailAddress" finished-at="2024-08-26T10:48:36 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithExistingEmailAddress -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@3c46e67a]" started-at="2024-08-26T10:48:36 IST" name="teardown" finished-at="2024-08-26T10:48:36 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@3c46e67a]" started-at="2024-08-26T10:48:40 IST" name="setUp" finished-at="2024-08-26T10:48:44 IST" duration-ms="3391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10959ece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountWithoutFillingAnyDetails()[pri:4, instance:com.tutorialsninja.qa.testcases.RegisterTest@3c46e67a]" started-at="2024-08-26T10:48:44 IST" name="verifyRegisteringAccountWithoutFillingAnyDetails" finished-at="2024-08-26T10:48:44 IST" duration-ms="479" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.tutorialsninja.qa.testcases.RegisterTest.verifyRegisteringAccountWithoutFillingAnyDetails(RegisterTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutFillingAnyDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@3c46e67a]" started-at="2024-08-26T10:48:44 IST" name="teardown" finished-at="2024-08-26T10:48:44 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.RegisterTest -->
+      <class name="com.tutorialsninja.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:23 IST" name="setUp" finished-at="2024-08-26T10:48:26 IST" duration-ms="2969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10959ece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:26 IST" name="verifyLoginWithInvalidEmailAndValidPassword" data-provider="supplyDataChain" finished-at="2024-08-26T10:48:27 IST" duration-ms="938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kshitizgupta.edu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:27 IST" name="teardown" finished-at="2024-08-26T10:48:27 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:27 IST" name="setUp" finished-at="2024-08-26T10:48:30 IST" duration-ms="3044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10959ece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:30 IST" name="verifyLoginWithInvalidEmailAndValidPassword" data-provider="supplyDataChain" finished-at="2024-08-26T10:48:31 IST" duration-ms="728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kshitizgupta2.edu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5464654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:31 IST" name="teardown" finished-at="2024-08-26T10:48:31 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:36 IST" name="setUp" finished-at="2024-08-26T10:48:39 IST" duration-ms="2749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10959ece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:39 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-08-26T10:48:40 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:40 IST" name="teardown" finished-at="2024-08-26T10:48:40 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:44 IST" name="setUp" finished-at="2024-08-26T10:48:48 IST" duration-ms="3309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10959ece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:48 IST" name="verifyLoginWithoutProvidingCredentials" finished-at="2024-08-26T10:48:49 IST" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutProvidingCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@26794848]" started-at="2024-08-26T10:48:49 IST" name="teardown" finished-at="2024-08-26T10:48:49 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.LoginTest -->
+      <class name="com.tutorialsninja.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@302552ec]" started-at="2024-08-26T10:48:06 IST" name="setUp" finished-at="2024-08-26T10:48:10 IST" duration-ms="3349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10959ece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.tutorialsninja.qa.testcases.SearchTest@302552ec]" started-at="2024-08-26T10:48:10 IST" name="verifySearchWithValidProduct" finished-at="2024-08-26T10:48:11 IST" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@302552ec]" started-at="2024-08-26T10:48:11 IST" name="teardown" finished-at="2024-08-26T10:48:11 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@302552ec]" started-at="2024-08-26T10:48:17 IST" name="setUp" finished-at="2024-08-26T10:48:20 IST" duration-ms="2702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@10959ece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.tutorialsninja.qa.testcases.SearchTest@302552ec]" started-at="2024-08-26T10:48:20 IST" name="verifySearchWithInvalidProduct" finished-at="2024-08-26T10:48:21 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@302552ec]" started-at="2024-08-26T10:48:21 IST" name="teardown" finished-at="2024-08-26T10:48:21 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.SearchTest -->
+    </test> <!-- TutorialNinja Test1 -->
+    <test started-at="2024-08-26T10:48:06 IST" name="TutorialNinja Test2" finished-at="2024-08-26T10:48:59 IST" duration-ms="53023">
+      <class name="com.tutorialsninja.qa.testcases.RegisterTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4e50c791]" started-at="2024-08-26T10:48:13 IST" name="setUp" finished-at="2024-08-26T10:48:17 IST" duration-ms="4007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountByProvidingAllFeilds()[pri:2, instance:com.tutorialsninja.qa.testcases.RegisterTest@4e50c791]" started-at="2024-08-26T10:48:17 IST" name="verifyRegisteringAccountByProvidingAllFeilds" finished-at="2024-08-26T10:48:19 IST" duration-ms="1422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountByProvidingAllFeilds -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4e50c791]" started-at="2024-08-26T10:48:19 IST" name="teardown" finished-at="2024-08-26T10:48:20 IST" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4e50c791]" started-at="2024-08-26T10:48:37 IST" name="setUp" finished-at="2024-08-26T10:48:41 IST" duration-ms="4016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountWithExistingEmailAddress()[pri:3, instance:com.tutorialsninja.qa.testcases.RegisterTest@4e50c791]" started-at="2024-08-26T10:48:41 IST" name="verifyRegisteringAccountWithExistingEmailAddress" finished-at="2024-08-26T10:48:43 IST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithExistingEmailAddress -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4e50c791]" started-at="2024-08-26T10:48:43 IST" name="teardown" finished-at="2024-08-26T10:48:44 IST" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4e50c791]" started-at="2024-08-26T10:48:50 IST" name="setUp" finished-at="2024-08-26T10:48:53 IST" duration-ms="2926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountWithoutFillingAnyDetails()[pri:4, instance:com.tutorialsninja.qa.testcases.RegisterTest@4e50c791]" started-at="2024-08-26T10:48:53 IST" name="verifyRegisteringAccountWithoutFillingAnyDetails" finished-at="2024-08-26T10:48:53 IST" duration-ms="517" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.tutorialsninja.qa.testcases.RegisterTest.verifyRegisteringAccountWithoutFillingAnyDetails(RegisterTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutFillingAnyDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@4e50c791]" started-at="2024-08-26T10:48:53 IST" name="teardown" finished-at="2024-08-26T10:48:54 IST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.RegisterTest -->
+      <class name="com.tutorialsninja.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:26 IST" name="setUp" finished-at="2024-08-26T10:48:28 IST" duration-ms="2692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:28 IST" name="verifyLoginWithInvalidEmailAndValidPassword" data-provider="supplyDataChain" finished-at="2024-08-26T10:48:29 IST" duration-ms="867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kshitizgupta.edu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:29 IST" name="teardown" finished-at="2024-08-26T10:48:31 IST" duration-ms="1588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:31 IST" name="setUp" finished-at="2024-08-26T10:48:35 IST" duration-ms="4571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:35 IST" name="verifyLoginWithInvalidEmailAndValidPassword" data-provider="supplyDataChain" finished-at="2024-08-26T10:48:36 IST" duration-ms="810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kshitizgupta2.edu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5464654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:36 IST" name="teardown" finished-at="2024-08-26T10:48:37 IST" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:44 IST" name="setUp" finished-at="2024-08-26T10:48:47 IST" duration-ms="3007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:47 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-08-26T10:48:48 IST" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:48 IST" name="teardown" finished-at="2024-08-26T10:48:50 IST" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:54 IST" name="setUp" finished-at="2024-08-26T10:48:57 IST" duration-ms="2905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:57 IST" name="verifyLoginWithoutProvidingCredentials" finished-at="2024-08-26T10:48:58 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutProvidingCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@7530ad9c]" started-at="2024-08-26T10:48:58 IST" name="teardown" finished-at="2024-08-26T10:48:59 IST" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.LoginTest -->
+      <class name="com.tutorialsninja.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@58a9760d]" started-at="2024-08-26T10:48:06 IST" name="setUp" finished-at="2024-08-26T10:48:11 IST" duration-ms="4473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.tutorialsninja.qa.testcases.SearchTest@58a9760d]" started-at="2024-08-26T10:48:11 IST" name="verifySearchWithValidProduct" finished-at="2024-08-26T10:48:12 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@58a9760d]" started-at="2024-08-26T10:48:12 IST" name="teardown" finished-at="2024-08-26T10:48:13 IST" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@58a9760d]" started-at="2024-08-26T10:48:20 IST" name="setUp" finished-at="2024-08-26T10:48:24 IST" duration-ms="3864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.tutorialsninja.qa.testcases.SearchTest@58a9760d]" started-at="2024-08-26T10:48:24 IST" name="verifySearchWithInvalidProduct" finished-at="2024-08-26T10:48:25 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@58a9760d]" started-at="2024-08-26T10:48:25 IST" name="teardown" finished-at="2024-08-26T10:48:26 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.SearchTest -->
+    </test> <!-- TutorialNinja Test2 -->
+    <test started-at="2024-08-26T10:48:06 IST" name="TutorialNinja Test3" finished-at="2024-08-26T10:49:15 IST" duration-ms="68382">
+      <class name="com.tutorialsninja.qa.testcases.RegisterTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@394df057]" started-at="2024-08-26T10:48:17 IST" name="setUp" finished-at="2024-08-26T10:48:24 IST" duration-ms="6261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@34f7cfd9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountByProvidingAllFeilds()[pri:2, instance:com.tutorialsninja.qa.testcases.RegisterTest@394df057]" started-at="2024-08-26T10:48:24 IST" name="verifyRegisteringAccountByProvidingAllFeilds" finished-at="2024-08-26T10:48:25 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountByProvidingAllFeilds -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@394df057]" started-at="2024-08-26T10:48:25 IST" name="teardown" finished-at="2024-08-26T10:48:26 IST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@394df057]" started-at="2024-08-26T10:48:51 IST" name="setUp" finished-at="2024-08-26T10:48:57 IST" duration-ms="5303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@34f7cfd9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountWithExistingEmailAddress()[pri:3, instance:com.tutorialsninja.qa.testcases.RegisterTest@394df057]" started-at="2024-08-26T10:48:57 IST" name="verifyRegisteringAccountWithExistingEmailAddress" finished-at="2024-08-26T10:48:58 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithExistingEmailAddress -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@394df057]" started-at="2024-08-26T10:48:58 IST" name="teardown" finished-at="2024-08-26T10:48:59 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@394df057]" started-at="2024-08-26T10:49:04 IST" name="setUp" finished-at="2024-08-26T10:49:09 IST" duration-ms="4497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@34f7cfd9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisteringAccountWithoutFillingAnyDetails()[pri:4, instance:com.tutorialsninja.qa.testcases.RegisterTest@394df057]" started-at="2024-08-26T10:49:09 IST" name="verifyRegisteringAccountWithoutFillingAnyDetails" finished-at="2024-08-26T10:49:09 IST" duration-ms="329" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.tutorialsninja.qa.testcases.RegisterTest.verifyRegisteringAccountWithoutFillingAnyDetails(RegisterTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutFillingAnyDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@394df057]" started-at="2024-08-26T10:49:09 IST" name="teardown" finished-at="2024-08-26T10:49:10 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.RegisterTest -->
+      <class name="com.tutorialsninja.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:48:35 IST" name="setUp" finished-at="2024-08-26T10:48:41 IST" duration-ms="6058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@34f7cfd9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:48:41 IST" name="verifyLoginWithInvalidEmailAndValidPassword" data-provider="supplyDataChain" finished-at="2024-08-26T10:48:41 IST" duration-ms="736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kshitizgupta.edu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:48:41 IST" name="teardown" finished-at="2024-08-26T10:48:43 IST" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:48:43 IST" name="setUp" finished-at="2024-08-26T10:48:49 IST" duration-ms="6126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@34f7cfd9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:48:49 IST" name="verifyLoginWithInvalidEmailAndValidPassword" data-provider="supplyDataChain" finished-at="2024-08-26T10:48:50 IST" duration-ms="559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kshitizgupta2.edu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5464654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:48:50 IST" name="teardown" finished-at="2024-08-26T10:48:51 IST" duration-ms="1518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:48:59 IST" name="setUp" finished-at="2024-08-26T10:49:03 IST" duration-ms="4504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@34f7cfd9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:49:03 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-08-26T10:49:03 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:49:03 IST" name="teardown" finished-at="2024-08-26T10:49:04 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:49:10 IST" name="setUp" finished-at="2024-08-26T10:49:14 IST" duration-ms="3848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@34f7cfd9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:49:14 IST" name="verifyLoginWithoutProvidingCredentials" finished-at="2024-08-26T10:49:14 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutProvidingCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@4961f6af]" started-at="2024-08-26T10:49:14 IST" name="teardown" finished-at="2024-08-26T10:49:15 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.LoginTest -->
+      <class name="com.tutorialsninja.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@5aebe890]" started-at="2024-08-26T10:48:06 IST" name="setUp" finished-at="2024-08-26T10:48:15 IST" duration-ms="8354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@34f7cfd9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.tutorialsninja.qa.testcases.SearchTest@5aebe890]" started-at="2024-08-26T10:48:15 IST" name="verifySearchWithValidProduct" finished-at="2024-08-26T10:48:16 IST" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@5aebe890]" started-at="2024-08-26T10:48:16 IST" name="teardown" finished-at="2024-08-26T10:48:17 IST" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@5aebe890]" started-at="2024-08-26T10:48:26 IST" name="setUp" finished-at="2024-08-26T10:48:32 IST" duration-ms="5947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@34f7cfd9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.tutorialsninja.qa.testcases.SearchTest@5aebe890]" started-at="2024-08-26T10:48:32 IST" name="verifySearchWithInvalidProduct" finished-at="2024-08-26T10:48:33 IST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@5aebe890]" started-at="2024-08-26T10:48:33 IST" name="teardown" finished-at="2024-08-26T10:48:35 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.SearchTest -->
+    </test> <!-- TutorialNinja Test3 -->
+  </suite> <!-- TutorialsNinja Automation Suite -->
+</testng-results>
