@@ -7,7 +7,7 @@
 	
 	<test name="TutorialNinja_Test1">
 		<parameter name="browser" value="chrome"></parameter>
-		<parameter name="os" value="windows"></parameter>
+		<parameter name="os" value="linux"></parameter>
 		<groups>
 			<run>
 				<exclude name="smoke"></exclude>
@@ -28,7 +28,7 @@
 
 	<test name="TutorialNinja_Test2">
 		<parameter name="browser" value="edge"></parameter>
-		<parameter name="os" value="windows"></parameter>
+		<parameter name="os" value="linux"></parameter>
 		<groups>
 			<run>
 				<exclude name="smoke"></exclude>
@@ -48,7 +48,7 @@
 
 	<test name="TutorialNinja_Test3">
 		<parameter name="browser" value="firefox"></parameter>
-		<parameter name="os" value="windows"></parameter>
+		<parameter name="os" value="linux"></parameter>
 		<groups>
 			<run>
 				<exclude name="smoke"></exclude>
